@@ -18,9 +18,9 @@
 		#define MATHSLIB_API
 	#else
 		#ifdef maths_EXPORTS
-			#define MATHSLIB_API __declspec (dllexport)
+			#define MATHSLIB_API  __declspec(dllexport)
 		#else
-			#define MATHSLIB_API __declspec (dllimport)
+			#define MATHSLIB_API __declspec(dllimport)
 		#endif
 	#endif
 #else
