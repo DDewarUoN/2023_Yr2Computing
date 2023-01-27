@@ -1,0 +1,3 @@
+C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet 4/build/CMakeFiles/hello.dir
+C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet 4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet 4/build/CMakeFiles/ZERO_CHECK.dir
