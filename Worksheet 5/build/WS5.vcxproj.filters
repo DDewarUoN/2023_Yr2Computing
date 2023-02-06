@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Release\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_MinSizeRel\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\CMakeFiles\c751b1d0eb9f0eb1b7d377ea135ffd0a\autouic_(CONFIG).stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.ui" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_Debug.stamp" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_Release.stamp" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_MinSizeRel.stamp" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_RelWithDebInfo.stamp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{39F95708-A45B-3C36-ADFA-285C965B1BD4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8B6056C3-FB40-3BFD-835E-568DB89AF963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{17025C0D-9F97-30AF-BD03-82FA22D5E297}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
