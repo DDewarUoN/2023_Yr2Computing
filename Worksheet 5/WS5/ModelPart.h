@@ -40,6 +40,8 @@ public:
       */
     ~ModelPart();
 
+    void changeName(QString newName);
+
     /** Add a child to this item.
       * @param item Pointer to child object (must already be allocated using new)
       */

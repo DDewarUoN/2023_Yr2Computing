@@ -16,6 +16,15 @@
     <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPartList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\optionsdialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\name_editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\EWIEGA46WW\qrc_icons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -36,16 +45,46 @@
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPartList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\name_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Debug\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Debug\ui_optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Debug\ui_name_editor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Release\ui_mainwindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Release\ui_optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Release\ui_name_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_MinSizeRel\ui_mainwindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_MinSizeRel\ui_optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_MinSizeRel\ui_name_editor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_RelWithDebInfo\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_RelWithDebInfo\ui_optionsdialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_RelWithDebInfo\ui_name_editor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,10 +92,16 @@
     <CustomBuild Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\CMakeFiles\c751b1d0eb9f0eb1b7d377ea135ffd0a\autouic_(CONFIG).stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
+    <CustomBuild Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\CMakeFiles\1c1fa593d36f1528138b0b81248c701b\qrc_icons.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
     <CustomBuild Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.ui" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\icons.qrc" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\optionsdialog.ui" />
+    <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\name_editor.ui" />
     <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_Debug.stamp" />
     <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_Release.stamp" />
     <None Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\autouic_MinSizeRel.stamp" />

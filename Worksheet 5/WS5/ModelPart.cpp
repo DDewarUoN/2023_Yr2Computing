@@ -29,6 +29,9 @@ ModelPart::~ModelPart() {
     qDeleteAll(m_childItems);
 }
 
+void ModelPart::changeName(QString newName) {
+    m_itemData[0].setValue(newName);
+}
 
 void ModelPart::appendChild(ModelPart* item) {
     /* Add another model part as a child of this part

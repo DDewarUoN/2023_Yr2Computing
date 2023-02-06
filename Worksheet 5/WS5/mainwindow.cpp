@@ -3,6 +3,9 @@
 #include <qmessagebox.h>
 #include "ModelPart.h"
 #include "ModelPartList.h"
+#include "qfiledialog.h"
+#include "optionsdialog.h"
+#include "name_editor.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -20,6 +23,10 @@ MainWindow::MainWindow(QWidget *parent)
 
     //Link the ModelList to the TreeView GUI
     ui->treeView->setModel(this->partList);
+    //Link right-click context meny to Tree view
+    ui->treeView->addAction(ui->actionName_Edit);
+    ui->treeView->addAction(ui->actionColour);
+    ui->treeView->addAction(ui->actionIs_Visible);
 
     //Create the Model Tree
     ModelPart* rootItem = this->partList->getRootItem();
@@ -56,7 +63,14 @@ void MainWindow::handleButton() {
 }
 
 void MainWindow::handleButton2() {
-    emit statusUpdateMessage(QString("Other button is now pressed!"), 0);
+    OptionsDialog dialog(this);
+
+    if (dialog.exec() == QDialog::Accepted) {
+        emit statusUpdateMessage(QString("Dialog Accepted"), 0);
+    }
+    else {
+        emit statusUpdateMessage(QString("Dialog Rejected"), 0);
+    }
 }
 
 void MainWindow::handleTreeClicked() {
@@ -75,5 +89,46 @@ void MainWindow::handleTreeClicked() {
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+
+void MainWindow::on_actionOpen_File_triggered()
+{
+    emit statusUpdateMessage(QString("Open File action Triggered"), 0);
+    QString fileName = QFileDialog::getOpenFileName(
+        this,
+        tr("Open File"),
+        "C:\\",
+        tr("STL Files(*.stl);; Text Files(*.txt)")
+    );
+}
+
+void MainWindow::on_actionName_Edit_triggered()
+{
+    QString type = "Name";
+    //Get Indexes for 'right-click' selected object in TreeView
+    QModelIndex index = ui->treeView->currentIndex();
+    ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer());
+    QString selected_objectName = selectedPart->data(0).toString();
+
+    Name_Editor NameEditor(type, selected_objectName, this);
+    NameEditor.setWindowTitle(type + " Editor");
+
+    if (NameEditor.exec() == QDialog::Accepted) {
+        selectedPart->changeName(NameEditor.getText());
+    }
+    else {
+
+    }
+}
+
+void MainWindow::on_actionColour_triggered()
+{
+
+}
+
+void MainWindow::on_actionIs_Visible_triggered()
+{
+
 }
 
