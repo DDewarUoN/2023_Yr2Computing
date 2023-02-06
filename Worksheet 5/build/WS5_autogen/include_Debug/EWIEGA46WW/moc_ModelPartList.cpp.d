@@ -1,4 +1,4 @@
-C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autogen/include_Debug/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/WS5/mainwindow.h \
+C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autogen/include_Debug/EWIEGA46WW/moc_ModelPartList.cpp: C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/WS5/ModelPartList.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/QAbstractItemModel \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/QList \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/QModelIndex \
@@ -37,11 +37,9 @@ C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autog
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qiterable.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qiterator.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qline.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qlist.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qlogging.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmap.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmargins.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmath.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmetacontainer.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qmetatype.h \
@@ -52,9 +50,7 @@ C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autog
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qobjectdefs.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qpair.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qpoint.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qprocessordetection.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qrect.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qrefcount.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qscopeguard.h \
@@ -63,7 +59,6 @@ C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autog
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qshareddata_impl.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qsharedpointer.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qsharedpointer_impl.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtCore/qsize.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qstring.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qstringconverter_base.h \
@@ -86,38 +81,4 @@ C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/build/WS5_autog
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qvariant.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.4.2/msvc2019_64/include/QtCore/qversiontagging.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qaction.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qbitmap.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qbrush.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qcolor.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qcursor.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfont.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfontinfo.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qicon.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qimage.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qkeysequence.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpaintdevice.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpalette.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpixelformat.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpixmap.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qpolygon.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qregion.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qrgb.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qrgba64.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qtgui-config.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qtguiexports.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qtguiglobal.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qtransform.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qwindowdefs.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtabwidget.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/6.4.2/msvc2019_64/include/QtWidgets/qwidget.h \
-  C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/WS5/ModelPart.h \
-  C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/WS5/ModelPartList.h
+  C:/Users/dndew/Documents/Projects/2023_Yr2Computing/Worksheet\ 5/WS5/ModelPart.h

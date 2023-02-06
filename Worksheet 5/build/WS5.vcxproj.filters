@@ -10,6 +10,12 @@
     <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPartList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\mocs_compilation_Release.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -22,6 +28,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\WS5\ModelPartList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\dndew\Documents\Projects\2023_Yr2Computing\Worksheet 5\build\WS5_autogen\include_Debug\ui_mainwindow.h">
