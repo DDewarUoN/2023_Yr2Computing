@@ -20,6 +20,7 @@ public:
 public slots:
     void handleButton();
     void handleButton2();
+    void handleTreeClicked();
 
 signals:
     void statusUpdateMessage(const QString& message, int timeout);

@@ -12,6 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     connect(ui->pushButton, &QPushButton::released, this, &MainWindow::handleButton);
     connect(ui->pushButton_2, &QPushButton::released, this, &MainWindow::handleButton2);
+    connect(ui->treeView, &QTreeView::clicked, this, &MainWindow::handleTreeClicked);
     connect(this, &MainWindow::statusUpdateMessage, ui->statusbar, &QStatusBar::showMessage);
     
     //Create the ModelList
@@ -56,6 +57,19 @@ void MainWindow::handleButton() {
 
 void MainWindow::handleButton2() {
     emit statusUpdateMessage(QString("Other button is now pressed!"), 0);
+}
+
+void MainWindow::handleTreeClicked() {
+    //Get the index of the selected item:
+    QModelIndex index = ui->treeView->currentIndex();
+
+    //Get a pointer to the item from the index
+    ModelPart* selectedPart = static_cast<ModelPart*>(index.internalPointer());
+
+    //Retrieve the name string from the QVariant Data Array
+    QString text = selectedPart->data(0).toString();
+
+    emit statusUpdateMessage(QString("The selected item is: ") + text, 0);
 }
 
 MainWindow::~MainWindow()
